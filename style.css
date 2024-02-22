@@ -93,3 +93,41 @@ main {
   color: var(--liClr);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header,
+  footer {
+    padding: 20px 10px;
+  }
+
+  #gameCanvas {
+    width: 80%;
+  }
+
+  .gameUI {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+
+  header,
+  footer {
+    padding: 60px 40px;
+  }
+
+  #gameCanvas {
+    width: 60%;
+  }
+
+  .gameUI {
+    padding: 40px;
+  }
+}
